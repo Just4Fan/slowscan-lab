@@ -1,0 +1,24 @@
+# 抓包数据和运行产物（体积大、不可复现，不进仓库）
+*.pcap
+out_*/
+out2_*/
+figures/*.png.tmp
+
+# 运行时产物
+fake.log
+fake_services.pid
+summary.txt
+*.log
+
+# 调试脚本
+_debug*.sh
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
